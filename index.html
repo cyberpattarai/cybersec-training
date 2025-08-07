@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CompTIA Security+ Training Signup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: #2d3e50;
+            color: white;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+        }
+        form {
+            background-color: white;
+            padding: 30px;
+            margin-top: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 300px;
+        }
+        input[type="text"], input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0 20px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #2d3e50;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #1a252f;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Join Mohamed's CompTIA Security+ Training</h1>
+        <p>Sign up to receive updates and resources</p>
+    </header>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" required>
+
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+</html>
